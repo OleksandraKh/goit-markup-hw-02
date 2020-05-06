@@ -31,14 +31,38 @@ body {
 }
 
 /* Site nav */
-.link {
+
+.site-nav .link {
   color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
 
-.site-nav-title {
-  color: var(--title-text-color);
-}
 /* Contacts nav  */
-.contacts-nav list {
+
+.contacts-nav .link {
   color: var(--primary-text-color);
 }
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+/* .hero-title
+ {
+  color: var(--primary-white-color);
+} */
+
+/* Features */
+.section-title {
+  color: var(--title-text-color);
+}
+.text {
+  color: var(--primary-text-color);
+}
+/* Чем мы занимаемся */
+/* .section-title-wite {
+  color: var(--primary-white-color);
+} */
