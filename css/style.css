@@ -1,68 +1,130 @@
-/* Цвет основного текста  #212121 */
-/* Вторичный цвет текста #757575 */
-/* Белый #ffffff */
-/* акцент #2196F3 */
-/* опциональный цвет текста rgba(255, 255, 255, 0.6) 
-  rgba(255, 255, 255, 0.4); */
-/* Вторичный цвет фона #F5F4FA */
-
 :root {
-  --primary-text-color: #757575; /* первичный цвет текста */
-  --title-text-color: #212121; /*Заглавный цвет текста */
+  --primary-text-color: #757575; /* Вторичный цвет текста */
+  --title-text-color: #212121; /*Цвет основного текста */
   --accent-color: #2196f3; /*Акцент */
-  --primary-white-color: #ffffff; /* первичный белый цвет */
-  /* --optional-text-color; rgba(255, 255, 255, 0.6) 
-  rgba(255, 255, 255, 0.4);*/
+  --primary-white-color: #ffffff; /* Белый цвет */
+  /* опциональный цвет текста rgba(255, 255, 255, 0.6) 
+  rgba(255, 255, 255, 0.4); */
+  /* Вторичный цвет фона #F5F4FA */
 }
 body {
   background-color: #ffffff;
   color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
 }
+.link {
+  text-decoration: none;
+}
+h2 {
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--title-text-color);
+}
+h3 {
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--title-text-color);
+}
 
-/* Header  */
-.web-logo {
+/* Logo  */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   color: var(--accent-color);
 }
-.logo {
+.accent {
   color: var(--title-text-color);
 }
 
 /* Site nav */
-
+.site-nav,
+.contacts-nav {
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 .site-nav .link {
   color: var(--title-text-color);
 }
 .site-nav .link:hover,
-.site-nav .link:focus {
+.contacts-nav .link:hover,
+.site-nav .link:focus,
+.contacts-nav .link:focus {
   color: var(--accent-color);
 }
 
 /* Contacts nav  */
-
-.contacts-nav .link {
+.contacts-nav-accent {
   color: var(--primary-text-color);
 }
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
-  color: var(--accent-color);
-}
+
 /* Hero */
-/* .hero-title
- {
+.hero {
+  background-color: var(--primary-text-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--primary-white-color);
-} */
+}
+.wrap {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+
+  color: var(--primary-white-color);
+}
 
 /* Features */
-.section-title {
-  color: var(--title-text-color);
-}
+
 .text {
+  font-style: 400;
+  font-size: 14px;
+  line-height: 1.7;
+
   color: var(--primary-text-color);
 }
+
 /* Чем мы занимаемся */
-/* .section-title-wite {
+.sectoin-content .link:hover {
+  color: var(--accent-color);
+}
+.section-title-white {
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  background-color: var(--primary-text-color);
   color: var(--primary-white-color);
-} */
+}
+
+/* Наша команда */
+.section-contacts {
+  background-color: #f5f4fa;
+}
+.contacts-subtitle {
+  color: var(--title-text-color);
+}
+.contacts-text {
+  color: var(--primary-text-color);
+}
+.sectoin-link {
+  color: #afb1b8;
+}
+.section-link .link:hover {
+  color: var(--accent-color);
+}
