@@ -32,7 +32,13 @@ h3 {
   line-height: 1.14;
   color: var(--title-text-color);
 }
-
+.section-decription {
+  font-style: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
 /* Logo  */
 .logo {
   font-family: Raleway;
@@ -159,4 +165,28 @@ color: var(--primary-white-color);
   line-height: 2;
   background-color: var(--primary-text-color);
   color: rgba(255, 255, 255, 0.4);
+}
+
+.cards-title{
+font-style: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--title-text-color);
+}
+.cards-text{
+font-style: 400;
+font-size: 18px;
+line-height: 1.56;
+background-color: var(--primary-text-color);
+color: var(--primary-white-color);
+
+}
+.cards-subtitle{
+
+font-style: 400;
+
+font-size: 16px;
+line-height: 1.87;
+color: var(--primary-text-color);
 }
