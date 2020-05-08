@@ -122,7 +122,7 @@ button:focus {
 /* Features */
 
 .text {
-  font-style: 400;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 
@@ -130,34 +130,42 @@ button:focus {
 }
 
 /* Чем мы занимаемся */
-.sectoin-content .link:hover {
-  color: var(--accent-color);
-}
-.section-title-white {
-  font-style: 700;
-  font-size: 14px;
-  line-height: 1.14;
 
+.section-subtitle {
   background-color: var(--primary-text-color);
   color: var(--primary-white-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
 /* Наша команда */
+
 .section-team {
-  font-size: 16px;
-  line-height: 1.19px;
   background-color: #f5f4fa;
 }
+
 .team-subtitle {
-  font-size: 16px;
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19px;
 }
+
 .team-text {
   color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19px;
 }
-.team-icon {
-  color: #afb1b8;
+
+.img:focus,
+.img:hover {
+  background-color: var(--accent-color);
 }
+
 /* Постоянные клиенты */
 
 /* Подвал */
@@ -167,7 +175,7 @@ footer {
 .footer-text {
   color: var(--primary-white-color);
 
-  font-style: 700;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
@@ -199,7 +207,7 @@ footer {
 address {
   color: #ffffff;
 
-  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
 }
