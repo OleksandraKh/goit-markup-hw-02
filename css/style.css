@@ -113,18 +113,50 @@ h3 {
 }
 
 /* Наша команда */
-.section-contacts {
+.section-team {
+  font-size: 16px;
+  line-height: 1.19px;
   background-color: #f5f4fa;
 }
-.contacts-subtitle {
+.team-subtitle {
+  font-size: 16px;
   color: var(--title-text-color);
 }
-.contacts-text {
+.team-text {
   color: var(--primary-text-color);
 }
-.sectoin-link {
+.team-icon {
   color: #afb1b8;
 }
-.section-link .link:hover {
-  color: var(--accent-color);
+/* Постоянные клиенты */
+
+
+
+
+ /* Подвал */
+ .footer-text {
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.logo-accent{
+  background-color: var(--primary-text-color);
+  color: var(--primary-white-color);}
+}
+
+.footer-button {
+font-style: 400;
+font-size: 16px;
+line-height: 1.9;
+background-color: var(--accent-color);
+color: var(--primary-white-color);
+}
+
+.autor {
+  font-style: 400;
+  font-size: 12px;
+  line-height: 2;
+  background-color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.4);
 }
